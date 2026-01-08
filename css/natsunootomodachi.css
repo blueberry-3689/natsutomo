@@ -1,0 +1,203 @@
+ @charset "UTF-8";
+ /* CSS Document */
+ .natsunootomodachi_pc{
+ max-width: 1240px;
+ margin: auto;
+ }
+ 
+ .natsu_a_pc{
+ display: block;
+ }
+ 
+ .natsu_top_a_pc img{
+ width: 100%;
+ }
+ 
+ .natsu_merch_a_pc{
+ display: block;
+ top: -565px;
+ position: relative;
+ }
+ 
+ .natsu_merch_a_pc ul{
+ display: flex;
+ justify-content: center;
+ margin: auto;
+ padding: 0;
+ }
+ 
+ .natsu_merch_a_pc ul li{
+  list-style: none;
+ }
+ 
+ .natsu_merch_a_pc ul li img{
+ width: 360px;
+ }
+ 
+ .natsu_merch_a_pc ul li a:hover {
+ opacity: 0.7;
+ }
+ 
+ .natsu_b_pc{
+ display: block;
+ margin-top: -461px;
+ }
+ 
+ .natsu_top_b_pc img{
+ width: 100%;
+ }
+ 
+ /* 掲載商品*/
+ .natsu_merch_pc{
+ max-width: 1240px;
+ margin: auto;
+ }
+ 
+ .natsu_cnt_pc{
+ margin: auto;
+ margin-top: 110px;
+ margin-bottom: 150px;
+ }
+
+ .natsu_cnt_pc ul{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 30px;
+ padding: 0;
+ }
+ 
+ .natsu_cnt_pc ul li{
+ list-style: none;
+ }
+ 
+ .natsu_cnt_pc ul li a{
+ text-decoration: none;
+ }
+ 
+ .natsu_cnt_pc ul li a:hover {
+ opacity: 0.7;
+ }
+ 
+ .natsu_cnt_pc ul li img{
+ width: 365px;
+ }
+ 
+ .natsu_cnt_pc ul li h2{
+ font-size: 14px;
+ color: #333;
+ margin: 0;
+ line-height: 26px;
+ font-weight: 400;
+ }
+
+ .natsu_cnt_pc ul li p{
+ font-size: 20px;
+ margin: 0;
+ color: #333;
+ font-weight: bold;
+ margin-top: 3px;
+ }
+
+
+ /* 850px-1240px */
+@media (min-width: 850px) and (max-width: 1240px) {
+body{
+    margin: 0px;
+}
+.natsu_merch_a_pc{
+    display: block;
+    top: -435px;
+    position: relative;
+}
+.natsu_merch_a_pc ul li img{
+    width: 264px;
+}
+.natsu_b_pc{
+    display: block;
+    margin-top: -337px;
+}
+.natsu_cnt_pc ul li img{
+    width: 225px;
+}
+.natsu_cnt_pc ul li h2{
+    font-size: 17px;
+    line-height: 22px;
+}
+
+}
+
+/* 600px-850px */
+@media (min-width: 600px) and (max-width: 850px) {
+body{
+    margin: 0px;
+}
+.natsu_merch_a_pc{
+    display: block;
+    top: -280px;
+    position: relative;
+}
+.natsu_merch_a_pc ul li img{
+    width: 180px;
+}
+.natsu_b_pc{
+    display: block;
+    margin-top: -235px;
+}
+.natsu_cnt_pc{
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.natsu_cnt_pc ul{
+    gap: 3px;
+}
+.natsu_cnt_pc ul li img{
+    width: 160px;
+}
+.natsu_cnt_pc ul li h2{
+    font-size: 14px;
+    line-height: 18px;
+}
+.natsu_cnt_pc ul li p{
+    font-size: 17px;
+}
+}
+
+/* 300px-600px */
+@media (min-width : 300px) and (max-width : 600px) {
+body{
+    margin: 0px;
+}
+.natsu_merch_a_pc{
+    display: block;
+    top: -189px;
+    position: relative;
+}
+.natsu_merch_a_pc ul li img{
+    width: 123px;
+}
+.natsu_b_pc{
+    display: block;
+    margin-top: -162px;
+}
+.natsu_cnt_pc{
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.natsu_cnt_pc ul{
+    gap: 3px;
+}
+.natsu_cnt_pc ul li img{
+    width: 110px;
+}
+.natsu_cnt_pc ul li h2{
+    font-size: 14px;
+    line-height: 18px;
+}
+.natsu_cnt_pc ul li p{
+    font-size: 17px;
+}
+
+}
+
